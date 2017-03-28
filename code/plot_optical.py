@@ -47,7 +47,7 @@ for j, spectra_id in enumerate(spectra_ids):
         wave = spectrum.data[0]
         flux = spectrum.data[1]
 
-        plt.plot(wave, flux / np.mean(flux))
+        plt.step(wave, flux / np.mean(flux), where='mid', linewidth=0.5 )
         # plt.show() #go to screen
 
         plt.xlim(6000, 10000)
