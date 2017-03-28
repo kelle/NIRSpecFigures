@@ -19,9 +19,9 @@ spectra_ids = [1093, 1103, 470, 1125, 496, 578, 586, 1301, 400, 401, 1353, 403,
                874, 404, 405, 420, 408, 1521, 1503]
 
 # enter the strings by hand
-spectral_type_strings = ["L0$\gamma$", 'none', "L1$\\beta$", "L0$\gamma$", "L0$\gamma$", "L1$\gamma$", "L2$\gamma$",
-                         "L1pec", 'none', "L3.5$\gamma$", "L3.5$\gamma$", "L4$\gamma$", "L4$\gamma$", "L0$\gamma$",
-                         "L3.5$\gamma$", 'none', "L5", "L3$\\beta$", "L0$\gamma$"]
+spectral_type_strings = ["L0$\gamma$", "L2$\gamma$", "L1$\gamma$", "L0$\gamma$", "L0$\gamma$", "L1$\gamma$", "L2$\gamma$",
+                         "L0", "L4$\gamma$", "L3.5$\gamma$", "L3.5$\gamma$", "L4$\gamma$", "L4$\gamma$", "L0$\gamma$",
+                         "L3.5$\gamma$", "L1", "L5", "L4$\gamma$", "L0$\gamma$"]
 
 ids_and_types = zip(spectra_ids, spectral_type_strings)
 
