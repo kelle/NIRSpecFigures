@@ -54,6 +54,13 @@ for j, spectra_id in enumerate(spectra_ids):
         plt.ylim(0.0, 4.0)
         plt.xlabel(r'Wavelength ($\mbox{\AA}$)')
         plt.ylabel('Normalized Flux')
+
+        # change plot box to grey
+        for spine in plt.gca().spines.values():
+            spine.set_edgecolor('#BDBDBD')
+        # change tick marks to grey
+        plt.gca().tick_params(color='#BDBDBD')
+
         plt.text(6500, 3.5, '{}'.format(names2[j]))
         plt.text(6500, 3.3, r'{}'.format(spectral_type_strings[j]))
         plt.text(6500, 3.0, 'obs date: ' '{}'.format(obsdates[j]), size='smaller')
